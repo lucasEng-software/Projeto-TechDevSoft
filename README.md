@@ -15,4 +15,10 @@ Projeto de um site web apenas com exibição de portfolios de projetos, contatos
  
  Diversas alterações foram feitas ao longo de alguns dias, projeto teve uma pausa e uma reformulação no seu  layout, retirada de  
  porfolios, colocação de um layout parallax, adição de formalize;
+ 
+ 08/02/2020
+ 
+ Site foi totalmente colocado de maneira responsiva, utilização de grids-rows-bootstrap;
+ Atualização do layout e re-codificação do html e css;
+ Inserção de ícones.
 
