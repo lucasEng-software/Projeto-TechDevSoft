@@ -10,4 +10,9 @@ Projeto de um site web apenas com exibição de portfolios de projetos, contatos
  Dia 1 - data 13/01/2020
  primeiro commit do projeto com ja 1 arquivo html e um css, uma pasta de imagens, inicialmente com o site com um menu, uma área de  portfolios, direitos, algo muito básico ainda e sem muitas dificuldades
  
+ 
+ 24/01/2020
+ 
+ Diversas alterações foram feitas ao longo de alguns dias, projeto teve uma pausa e uma reformulação no seu  layout, retirada de  
+ porfolios, colocação de um layout parallax, adição de formalize;
 
