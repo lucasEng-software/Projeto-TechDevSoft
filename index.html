@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
 		
 		<title>DevSoft - Desenvolvimentos de sistemas mobile e web</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-		<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+		<!--  NORMALIZE CSS-->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<!--Estilo Pagina-->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<!--BOOTSTRAP-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+		<!--ÍCONES -->
+		<link href="iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="fontawesome/css/all.css">
+	
 		<!--[if lt IE 9]
 				<script src="JS/html5shiv.js"></script>
 		[endif]!-->
@@ -14,71 +25,143 @@
 	</head>
 <body>
 
-	<div class="caixa1">
-		<header id="topo">
+<div class="container-principal">
+	<header class="header">
 
-			<div id="logo">
-				<h1>
-					<span class="cc-logo">CC</span>-<span class="es-logo">ES</span> DESENVOLVIMENTO DE SISTEMAS E ENGENHARIA DE SOFTWARE
-				</h1>
-			</div>
-		
-
-			<nav>
-				<ul id="barra-nav-topo">
-					<li> <a href="">Home</a></li>
-					<li> <a href="">Quem somos?</a></li>
-					<li> <a href="">Portfolio</a></li>
-					<li> <a href="">Nossos Serviços</a></li>
-					<li> <a href="">Contato</a></li>
-				</ul>
-			</nav>	
-		</header>
-		<div class="clear"></div>
-		
-		<div id="container-inicial">
-			<h1> Desenvolvimento de Sistemas Web e Aplicativos Mobile</h1>
-
-		</div>
+		<nav class="navbar navbar-expand-sm navbar-dark">
 			
-	</div>	
+			<div class="container">
+				<a href="" class="navbar-brand">
+					<i class="fas fa-laptop-code fa-2x" ></i>
+				</a>
 
-	<div id="conteudo-sobre">
-		<h1> Bem-Vindo a empresa Sem<span class="azul">Nome</span></h1>
-		<p> Somos uma empresa de alunos de engenharia de software e ciências da computação e um sem futuro de mecânica, nós não sabemos desenvolver, porém tentamos aprender algo, nossa empresa supostamente deverá desenvolver sistemas web e mobile, vamo? não sei</p>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra-navegacao"aria-controls="barra-navegacao" aria-expanded="false" aria-label="Toggle navigation">
+					
+					<span class="navbar-toggler-icon "></span>
+				</button>
 
+				<div class="collapse navbar-collapse" id="barra-navegacao">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="" class="nav-link">
+							Home
+							
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">
+							Nossos serviços
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">
+							Quem somos?
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">
+							contatos
+							</a>
+						</li>
+					</ul>
+				</div>	
+			</div>	
+		</nav>	
+	</header>
 
-		<article id="area-o-que-fazemos">
-			<section class="box">
-				<h1> Tem uma ideia?</h1>
-				<p> Nos diga sua ideia, provavelmente não saberemos o que caralhos fazer com ela, mas quem sabe um dia a gente consiga, se tu pensa " vou apresentar uma ideia e os cara vao desenvolver e cobrar barato" vc está errado, vamos cobrar caro e desenvolver ? quem sabe.</p>
-			</section>
+	<section id="home" class="caixa">		
+		<div class="container">	
+			<div class="row">
+				<div class=" col-md-6 align-self-center "> 
+					<h1 class="display-6">Bem vindos à Dev<span class="titulo">Soft </span><i class="fas fa-laptop-code" ></i>,</h1>
+					<p class="lead text-justify">uma iniciativa start-up para desenvolvimento de <span class="font-weight-bold">sistemas-web</span> e <span class="font-weight-bold"> mobile </span>.</p>
+					<p class="lead">desenvolvimentos em plataformas:</p>
+					
+					<a class="btn btn-outline-info"><i class="fab fa-android fa-lg"></i></a> 
+					<a class="btn btn-outline-info"> <i class="fab fa-apple fa-lg"></i></a>
+					
+				</div>
+ 				
+			</div>
+	</section>
+</div>	
 
-			<section class="box">
-				<h1> Quer vender seu produto?</h1>
-				<p> A gente tenta fazer o site de vendas pra tí. É ISTO</p>
-			</section>
-
-			<section class="box">
+	<section class="caixa" id="sobre">
+		<div class="container">
+			<div class="row">
 				
-				<h1> Precisa gerenciar o seu negócio?</h1>
-				<p>Nossa equipe é especialista na criação de plataformas e sistemas administrativos para gerenciar o comercial, estoque, operacional, financeiro e fiscal da sua empresa.</p>
+ 				<div class=" col-md-6 align-self-center"> 
+ 					<h2 class="display-6 titulo" >Saiba mais sobre nós</h2>
+ 					<p class="lead text-justify">Aqui você encontra as soluções mais simples para sua ideia de projeto,
+ 						buscamos atender sempre as necessidades do cliente implantando técnicas de engenharia de software e ciências da computação, ajudamos também em estimativas e projeções sempre visando o melhor possível para nosso cliente e usuário, juntos fazemos o desenvolvimento de um projeto de software desejado pelo cliente.
+ 					</p>
+ 				</div>
+ 				<div class="col-md-6 d-none d-md-block">
+ 				 	<img src="imagens/usuario.png">
+ 				</div>
+ 			</div>
+		</div>
+	</section>
 
-			</section>
-		</article>
-	</div>
+	<section class="caixa" id="o-que-fazemos">
+		<div class="container">
+			<div class="row">
+				
+ 				<div class=" col-md-4 "> 
+ 					<i class="far fa-lightbulb fa-5x card-o-que"></i>
+ 					<h2><a href="">Tem uma ideia?</a></h2>
+ 					<p  class="lead text-justify card-text">Tranformamos em realidade, trabalhamos com o desenvolvimento de aplicativos mobile para as plataformas Android, iOS e Windows Phone. Entre em contato e solicite o seu orçamento.</p>
+ 				</div>
+ 				<div class=" col-md-4   "> 
+ 					<i class="fas fa-tasks fa-5x card-o-que"></i>
+ 					<h2><a href="">Precisa gerenciar seu negócio?</a></h2>
+ 					<p  class="lead text-justify card-text">Nossa equipe é especialista na criação de plataformas e sistemas administrativos para gerenciar o comercial, estoque, operacional,
+					financeiro e fiscal da sua empresa.</p>
 
-	<div class="caixa2">
+ 				</div>
+ 				<div class=" col-md-4  "> 
+ 					<i class="fas fa-money-check-alt fa-5x card-o-que"></i>
+ 					<h2><a href="">Quer vender seu produto na internet?</a></h2>
+ 					<p class="lead text-justify card-text">Conte com nossa ajuda, somos especialistas no desenvolvimento de lojas virtuais personalizadas, tenha um e-commerce completo e venda os seus produtos de forma rápida, fácil e segura.</p>
+ 				</div>
+ 			
+ 			</div>
+		</div>
+	</section>
+
+	<footer class="mt-4 mb-4">
 		
+		<div class="container">
+			
+			<div class="row">
+ 				<div class="col-md-8"> 
+ 					<p>
+ 						<a href="">Home</a>
+ 						<a href="">Quem somos?</a>
+ 						<a href="">O que fazemos?</a>
+ 						<a href="">Contatos</a>
+ 					</p>
+ 				</div>
+ 				<div class=" col-md-4"> 
+ 					<h4 class="font-weight-normal">Nos <span class="font-weight-bold">acompanhe</span></h4>
+ 						<a href="" type="button" class="btn btn-outline-dark"><i class="fab fa-facebook-square"></i></a>
+ 						<a href=""  type="button" class="btn btn-outline-dark"><i class="fab fa-twitter-square"></i></a>
+ 				</div>
+ 			</div>
 
-
-
-
-	</div>
-
-	<footer id="rodape">
-
-		<h4> &copy 2020- MMBTL-Development Todos os direitos reservados </h3>
+ 			<div class="row  justify-content-center">
+ 				<div class="col-md-6 "> 
+ 					<p class="text-center"> &copy 2020- DevSoft Todos os direitos reservados </p>
+ 				</div>
+			
+			</div>
+ 		</div>
 	</footer>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" ></script>
 </body>
 </html>
