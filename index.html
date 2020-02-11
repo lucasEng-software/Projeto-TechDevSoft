@@ -3,6 +3,7 @@
 	<head>
 		
 		<title>DevSoft - Desenvolvimentos de sistemas mobile e web</title>
+		<link rel="icon"  href="imagens/icone-pagina.jpg">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -25,19 +26,19 @@
 	</head>
 <body>
 
-<div class="container-principal">
-	<header class="header">
 
-		<nav class="navbar navbar-expand-sm navbar-dark">
+	<header class="header ">
+
+		<nav class="navbar  navbar-expand-md navbar-dark navbar-principal ">
 			
 			<div class="container">
 				<a href="" class="navbar-brand">
 					<i class="fas fa-laptop-code fa-2x" ></i>
 				</a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra-navegacao"aria-controls="barra-navegacao" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler btn-toggler" type="button" data-toggle="collapse" data-target="#barra-navegacao"aria-controls="barra-navegacao" aria-expanded="false" aria-label="Toggle navigation">
 					
-					<span class="navbar-toggler-icon "></span>
+					<i class="fas fa-bars text-white"></i>
 				</button>
 
 				<div class="collapse navbar-collapse" id="barra-navegacao">
@@ -69,29 +70,30 @@
 		</nav>	
 	</header>
 
-	<section id="home" class="caixa">		
-		<div class="container">	
-			<div class="row">
-				<div class=" col-md-6 align-self-center "> 
-					<h1 class="display-6">Bem vindos à Dev<span class="titulo">Soft </span><i class="fas fa-laptop-code" ></i>,</h1>
-					<p class="lead text-justify">uma iniciativa start-up para desenvolvimento de <span class="font-weight-bold">sistemas-web</span> e <span class="font-weight-bold"> mobile </span>.</p>
+	<section id="home" class="caixa d-flex">		
+		<div class="container align-self-center">	
+			<div class="row ">
+				<div class="col-md-12"> 
+
+					<h1>Bem-vindos à Dev<span class="titulo">Soft</span>,</h1><i class="fas fa-laptop-code" ></i>
+					<p class="lead">uma iniciativa start-up para desenvolvimento de <span class="font-weight-bold">sistemas-web</span> e <span class="font-weight-bold"> mobile </span>.</p>
 					<p class="lead">desenvolvimentos em plataformas:</p>
 					
-					<a class="btn btn-outline-info"><i class="fab fa-android fa-lg"></i></a> 
-					<a class="btn btn-outline-info"> <i class="fab fa-apple fa-lg"></i></a>
+					<a class="btn btn-outline-primary btn-lg btn-custom"><i class="fab fa-android fa-lg"></i></a> 
+					<a class="btn btn-outline-primary btn-lg btn-custom"> <i class="fab fa-apple fa-lg"></i></a>
 					
 				</div>
  				
 			</div>
 	</section>
-</div>	
+
 
 	<section class="caixa" id="sobre">
 		<div class="container">
 			<div class="row">
 				
  				<div class=" col-md-6 align-self-center"> 
- 					<h2 class="display-6 titulo" >Saiba mais sobre nós</h2>
+ 					<h2 class=" titulo" >Saiba mais sobre nós</h2>
  					<p class="lead text-justify">Aqui você encontra as soluções mais simples para sua ideia de projeto,
  						buscamos atender sempre as necessidades do cliente implantando técnicas de engenharia de software e ciências da computação, ajudamos também em estimativas e projeções sempre visando o melhor possível para nosso cliente e usuário, juntos fazemos o desenvolvimento de um projeto de software desejado pelo cliente.
  					</p>
@@ -100,6 +102,44 @@
  				 	<img src="imagens/usuario.png">
  				</div>
  			</div>
+		</div>
+	</section>
+
+	<section id="slider" class="caixa d-flex">
+		<div class="container align-self-center">
+			<div class="row slider-carousel">
+				<div class="col-md-12">
+
+					<div id="carousel-slide" class="carousel slide" data-ride="carousel">
+								<!-- indicadores !-->
+						<ol class="carousel-indicators">
+							<li class="active" data-target="#carousel-slide" data-slide-to="0"> </li>
+							<li data-target="#carousel-slide" data-slide-to="1"></li>
+							
+									
+						</ol>
+
+						<div class="carousel-inner">
+					   	 	<div class="carousel-item active">
+					    		<img src="imagens/img-1.jpg">
+					    	</div>
+					    	<div class="carousel-item">
+					     		<img src="imagens/img-2.jpg">
+					   		 </div>
+					   		 
+					  </div>
+
+
+								<!-- controles !-->
+						<a href="#carousel-slide" class="carousel-control-prev" data-slide="prev">
+							<i class="fas fa-angle-left fa-3x auto"></i>
+						</a>
+						<a href="#carousel-slide" class="carousel-control-next" data-slide="next">
+							<i class="fas fa-angle-right fa-3x auto"></i>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -127,33 +167,113 @@
  			
  			</div>
 		</div>
+	</section>	
+
+	<section id="localizacao" class="caixa">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<i class="fas fa-home fa-6x icone-local"></i>
+
+				</div>
+				<div class="col ">
+					<h3>Russas-Ce</h3>
+					<p class="lead"> Rua Joaquim de castro meireles, 1099, Russas CE-Brasil</p>
+					<p class="lead">Telefone:(85)9999-9999</p>
+				</div>
+				
+
+
+			</div>	
+
+
+
+
+		</div>
+
+
 	</section>
 
-	<footer class="mt-4 mb-4">
+	<footer class="mt-0 mb-0">
 		
 		<div class="container">
 			
 			<div class="row">
- 				<div class="col-md-8"> 
- 					<p>
- 						<a href="">Home</a>
- 						<a href="">Quem somos?</a>
- 						<a href="">O que fazemos?</a>
- 						<a href="">Contatos</a>
- 					</p>
+ 				<div class="col-md-2"> 
+ 					<h5>Copyright&copy DevSoft- todos os direitos reservados</h4>	
  				</div>
+
+ 				<div class="col-md-2">
+ 					<h4>Institucional</h4>
+ 					<ul class="navbar-nav">
+ 						<li>
+ 							<a href="">Home</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Sobre</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Quem somos?</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Trabalhe conosco</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Portfolio</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Contatos</a>
+ 						</li>
+
+ 					</ul>
+
+
+ 				</div>
+ 				<div class="col-md-2">
+ 					<h4> Serviços</h4>
+ 					<ul class="navbar-nav">
+ 						<li>
+ 							<a href="">Desenvolvimento de sistemas web</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Desenvolvimento de sistemas mobile</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Engenharia de Software</a>
+ 						</li>
+ 						
+
+ 					</ul>
+
+
+ 				</div>
+ 				<div class="col-md-2">
+ 					<h4> company </h4>
+ 					<ul class="navbar-nav">
+ 						<li>
+ 							<a href="">Home</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Sobre</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Portfolio</a>
+ 						</li>
+ 						<li>
+ 							<a href="">Contatos</a>
+ 						</li>
+
+ 					</ul>
+
+ 				</div>
+
+
+
  				<div class=" col-md-4"> 
  					<h4 class="font-weight-normal">Nos <span class="font-weight-bold">acompanhe</span></h4>
  						<a href="" type="button" class="btn btn-outline-dark"><i class="fab fa-facebook-square"></i></a>
  						<a href=""  type="button" class="btn btn-outline-dark"><i class="fab fa-twitter-square"></i></a>
  				</div>
- 			</div>
-
- 			<div class="row  justify-content-center">
- 				<div class="col-md-6 "> 
- 					<p class="text-center"> &copy 2020- DevSoft Todos os direitos reservados </p>
- 				</div>
-			
 			</div>
  		</div>
 	</footer>
@@ -163,5 +283,6 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" ></script>
+    <!--<script src="js/meu_script.js"></script>!-->
 </body>
 </html>
