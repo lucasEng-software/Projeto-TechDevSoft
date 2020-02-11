@@ -21,4 +21,7 @@ Projeto de um site web apenas com exibição de portfolios de projetos, contatos
  Site foi totalmente colocado de maneira responsiva, utilização de grids-rows-bootstrap;
  Atualização do layout e re-codificação do html e css;
  Inserção de ícones.
-
+ 
+ 11/02/2020
+ 
+ Inclusão de media queries, padronizaçações, atualização de rodapé, teste de js e inclusão de nova section com carousel e localização;
